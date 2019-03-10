@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Elegant Contact List</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <link rel="stylesheet" type="text/css" href="lib/jquery.toast.min.css">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+#tb{
+  margin-left:10rem;
+}
+body{
+  overflow-x:hidden;
+}
+
+  </style>
+</head>
+
+<body>
+<section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="section-header">
+          <h2>Elegant Contact Requests</h2>
+
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab" id="tab1">Request List</a>
+          </li>
+        </ul>
+
+
+        <div class="tab-content row justify-content-center">
+
+          <!-- Schdule Day 1 -->
+          <div role="tabpanel" class="tab-pane fade show active" id="day-1">
+        
+  <div class="limiter">
+    <div class="container-table100">
+      <div class="wrap-table100">
+        <div class="table100 ver1 m-b-110">
+          <div class="table100-head">
+            <table id="table">
+              <thead>
+                <tr class="row100 head">
+                  <th class="cell100 column2 text-center">No</th>
+                  <th class="cell100 column3 text-center">First Name</th>
+                  <th class="cell100 column4 text-center">Last Name</th>
+                  <th class="cell100 column3 text-center">Email</th>
+                  <th class="cell100 column13 text-center">Messages</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+
+          <div class="table100-body js-pscroll">
+            <table>
+              <tbody id="tbody">
+                <tr class="row100 body"  >
+                 
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+ 
+ 
+          </div>
+
+          <!-- End Schdule Day 1 -->
+
+          <!-- Schdule Day 2 -->
+          <div role="tabpanel" class="  tab-pane fade" id="day-2">
+           <div class="limiter">
+   
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  
+</body>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/jquery.toast.min.js"></script>
+
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+   <script>
+    // Initialize Firebase
+    // var config = {
+    //   apiKey: "AIzaSyDpw8_vs4ZkldXxpAZCi1mEHASdqIHO6N8",
+    //   authDomain: "genesysblockchain.firebaseapp.com",
+    //   databaseURL: "https://genesysblockchain.firebaseio.com",
+    //   projectId: "genesysblockchain",
+    //   storageBucket: "",
+    //   messagingSenderId: "59091750081"
+    // };
+    // firebase.initializeApp(config);
+
+    // file: script.js
+    // Initialize Firebase
+    var config = {
+     apiKey: "AIzaSyDbs9me_AD-E47aAQ49HEP5-hIXZoE-vhA",
+    authDomain: "elegant-e2eeb.firebaseapp.com",
+    databaseURL: "https://elegant-e2eeb.firebaseio.com",
+    projectId: "elegant-e2eeb",
+    storageBucket: "elegant-e2eeb.appspot.com",
+    messagingSenderId: "1085600676061"
+    };
+    firebase.initializeApp(config);
+
+    var dbRef = firebase.database();
+    var requestRef = dbRef.ref('request');
+
+   requestRef.on("child_added", function(snap) {
+  console.log("added", snap.key, snap.val());
+  $('#tbody').append(contactHtmlFromObject(snap.val()));
+   });
+    //save contact
+
+    function contactHtmlFromObject(request){
+  console.log( request );
+  var count =$('#tbody tr').length;
+
+  var html = '';
+ // html +='<th>'+developer.name+'<th>';
+ // html +='<th>'+developer.email+'<th>'
+ html +='<tr>'+'<td class="cell100 column2 text-center">'+count+'</td>'+
+        '<td class="cell100 column3 text-center">'+request.firstName+'</td>'+
+         '<td class="cell100 column3 text-center">'+request.lastName+'</td>'+
+         '<td class="cell100 column3 text-center">'+request.email+'</td>'+
+         '<td class="cell100 column3 text-center" >'+request.message+'</td>'+'</tr>'
+
+  return html;
+}
+
+
+
+
+
+
+    $.toast({
+      heading: 'Success',
+      text: 'Loading Successfully...',
+      icon: 'success',
+      position: 'bottom-right',
+    })
+
+  $(document).ready(function(){
+  $("#tab1").click(function(){
+  var count =$('#tbody tr').length-1;
+  if(count===0){
+      $.toast({
+    heading: 'warning',
+    text: 'No Record Found...',
+    icon: 'warning',
+    position: 'bottom-right',
+  })
+  }else{
+      $.toast({
+    heading: 'Information',
+    text: count + '_Records Found',
+    icon: 'info',
+    position: 'bottom-right',
+  })
+  }
+  });
+});
+
+$(document).ready(function(){
+  $("#tab2").click(function(){
+  var count1 =$('#tbody1 tr').length-1;
+  if(count1===0){
+     $.toast({
+    heading: 'warning',
+    text: 'No Records Found...',
+    icon: 'warning',
+    position: 'bottom-right',
+  })
+  }else{
+      $.toast({
+    heading: 'Information',
+    text: count1 +'_Record Found...',
+    icon: 'info',
+    position: 'bottom-right',
+  })
+  }
+  });
+ 
+});
+  </script>
+</html>
